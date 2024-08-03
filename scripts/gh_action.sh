@@ -12,7 +12,7 @@ echo "===== Start Deploy: $(date +%c) =====" >> $DEPLOY_LOG_PATH
 
 echo "> build filename: $JAR_NAME" >> $DEPLOY_LOG_PATH
 echo "> build file copy" >> $DEPLOY_LOG_PATH
-cp BUILD_JAR $DEPLOY_PATH
+cp $BUILD_JAR $DEPLOY_PATH
 
 echo "> check running application pid" >> $DEPLOY_LOG_PATH
 CURRENT_PID=$(pgrep -f $JAR_NAME)
