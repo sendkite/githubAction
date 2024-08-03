@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sendkite.SendkiteApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-03T15:41:46" hostname="songyeonjeonui-MacBookPro.local" time="0.396">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.sendkite.SendkiteApplicationTests" time="0.396"/>
+  <system-out><![CDATA[00:41:45.639 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sendkite.SendkiteApplicationTests]: SendkiteApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:41:45.675 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.sendkite.SendkiteApplication for test class com.sendkite.SendkiteApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-08-04T00:41:45.816+09:00  INFO 83868 --- [sendkite] [    Test worker] com.sendkite.SendkiteApplicationTests    : Starting SendkiteApplicationTests using Java 17.0.7 with PID 83868 (started by songyeon.jeon in /Users/songyeon.jeon/dp/githubAction)
+2024-08-04T00:41:45.816+09:00  INFO 83868 --- [sendkite] [    Test worker] com.sendkite.SendkiteApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-08-04T00:41:46.193+09:00  INFO 83868 --- [sendkite] [    Test worker] com.sendkite.SendkiteApplicationTests    : Started SendkiteApplicationTests in 0.466 seconds (process running for 0.89)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
